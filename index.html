@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Responsive Blog</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Stylesheets go here. -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <script src="https://use.fontawesome.com/aa712d5a17.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
   <link rel="stylesheet" type="text/css" href="css/global.css" />
 </head>
 <body>
 
+<main>
+  <!-- blue section  -->
+  <section id="section1" class="center">
+    <div id="section1_box">
+      <div id="section1_content" class="center">
+        <img id="main_picture" src="http://unsplash.it/800?random" alt="main picture">
+        <h5 id="howdie">HOWDIE</h5>
+        <h1 id="cam">I'm Cam. User experience designer <span id="and">&</span> developer.</h1>
+        <button>
+            <h4 id="coffee">Let's Grab a Coffee</h4>
+            <h4 id="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></h4>
+        </button>
+      </div>
+    </div>
+    <div id="footer" class="center">
+      <ul>
+        <li class="flex1 icon"><i class="fa fa-font-awesome fa-lg" aria-hidden="true"></i></li>
+        <li id="kitchener" class="flex12">Made in Kitchener</li>
+        <li class="flex1 icon"><i class="fa fa-dribbble fa-lg" aria-hidden="true"></i></li>
+        <li class="flex1 icon"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></li>
+        <li class="flex1 icon"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></li>
+        <li class="flex1 icon"><i class="fa fa-github fa-lg" aria-hidden="true"></i></li>
+        <li class="flex1 icon"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- text section -->
+  <section id="section2">
+    <!-- section 2 is flex with column display.. about me and text is one div with column
+    about me - header is 1 div, text is another, column flex -->
+    <div class="section2_details">
+      <div class="flex1"><h5>About Me</h5></div>
+      <div class="flex4">
+        <p>For the past six years I've helped global companies, organizations and start-ups reach business goals with user focused, iterative design. I enjoy bringing clarity to complex problems with a people first approach. These programs and skills help me along the way:</p>
+        <ul>
+          <li><i class="fa fa-angle-right" aria-hidden="true"></i>Sketch</li>
+          <li><i class="fa fa-angle-right" aria-hidden="true"></i>Adobe Suite</li>
+          <li><i class="fa fa-angle-right" aria-hidden="true"></i>HTML/CSS</li>
+          <li><i class="fa fa-angle-right" aria-hidden="true"></i>Sass</li>
+          <li><i class="fa fa-angle-right" aria-hidden="true"></i>BEM</li>
+          <li><i class="fa fa-angle-right" aria-hidden="true"></i>GitHub</li>
+          <li><i class="fa fa-angle-right" aria-hidden="true"></i>Invision App</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section2_details">
+      <div class="flex1"><h5>Projects</h5></div>
+      <div class="projects flex4">
+        <h4>Pair Shaped <i class="fa fa-arrow-right" aria-hidden="true"></i> </h4>
+        <p>The team and I designed and built a website reflecting our mission to build real-time applications that connect people and things at the moment they happen.</p>
+        <h4>Suzuki <i class="fa fa-arrow-right" aria-hidden="true"></i> </h4>
+        <p>Concept design work for Suzuki Canada's motorcyle line. Experimenting with some new ideas to showcase products with less clutter.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
 
 
 </body>
